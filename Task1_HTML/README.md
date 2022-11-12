@@ -6,15 +6,17 @@
 > Người thực hiện: Lê Đức Ninh  
 > Mentor: Nguyễn Quang Đức  
 # Nội dung: 
-[I. HTML là gì?](#I)  
-[II. Vai trò của HTML](#II)  
-[III. Các thẻ và thuộc tính phổ biến trong HTML](#IIII)  
-  [1. Cấu trúc chung](#1)
-  [2. Các thẻ trong `<head>`](#2)
-  [3. Các thẻ trong `<body>`](#3)
-    [3.1. Định dạng đoạn văn bản](#3.1.)
-    [3.2. Chèn media](#3.2.)
-    [3.3. Tạo form nhập liệu](#3.3.)
+>[I. HTML là gì?](#I)  
+>[II. Vai trò của HTML](#II)  
+>[III. Các thẻ và thuộc tính phổ biến trong HTML](#IIII)  
+>  [1. Cấu trúc chung](#1)  
+>  [2. Các thẻ trong `<head>`](#2)  
+>  [3. Các thẻ trong `<body>`](#3)  
+>    [3.1. Định dạng đoạn văn bản](#3.1.)  
+>    [3.2. Chèn media](#3.2.)  
+>    [3.3. Tạo form nhập liệu](#3.3.)  
+
+
 <a name = "I"></a>
 # HTML là gì?
 - HTML (Hyper Text Markup Language) là ngôn ngữ đánh dấu siêu văn bản dùng để tạo giao diện web, mỗi trang web là một file html hoặc có thể là một tập tin HTML.  
@@ -27,6 +29,8 @@ HTML là ngôn ngữ đánh dấu siêu văn bản nên nó có vai trò xây d�
 
 <a name = "III"></a>
 # Các thẻ và thuộc tính phổ biến trong HTML.
+<a name = "1"></a>
+## Cấu trúc chung
 Để khai báo loại tài liệu HTML chúng ta cần khai báo `<!DOCTYPE html>` - HTML5  
 Chúng ta sẽ tham khảo một chương trình HTML bao gồm những thành phần nào.
 ```
@@ -44,6 +48,7 @@ Chúng ta sẽ tham khảo một chương trình HTML bao gồm những thành p
 </html>
 ```
 Đầu tiên chúng ta có thể thấy bắt đầu với chương trình sẽ là dòng khai báo file HTML (ngoài ra còn cho biết bạn đang dùng phiên bản html bao nhiêu). Tiếp theo là thẻ mở `<html>` và kết thúc bằng thẻ đóng `<html>` có ý nghĩa bao hàm cả nội dung file html - cấu trúc file html. Bên trong thẻ `<html>` được chia ra làm 2 phần đó là head và body. Ở phần head sẽ bắt đầu với thẻ mở `<head>` và thẻ đóng `</head>`, ở phần này chứa những thẻ khai báo thông tin cho trang như tiêu đề, mô tả, bảng mã ký tự. Và phần `head` không hiển thị nội dung bên trong nó lên trang web. Tiếp theo là thẻ `body` cũng tương tự như thế thẻ body cũng bắt đầu với một thẻ mở `<body>` và kết thúc bằng thẻ đóng `</body>`. Ở phần này sẽ chứa toàn bộ nội dung sẽ hiển thị lên website.
+<a name = "2"></a>
 ## Các thẻ phổ biến trong phần `<head>`
 Đầu tiên phải kể đến đó là thẻ `<title>My blog</title>` sẽ khai báo tiêu đề/ nhan đề bài viết.<br>
 Tiếp theo là thẻ `<meta>` đi kèm với các thuộc tính dùng để định nghĩa các thông tin cơ bản như mô tả trang web, từ khóa, tác giả, chỉnh sửa cuối cùng và các metadata khác.  
@@ -54,7 +59,9 @@ Ví dụ:
 `<meta name="description" content="This is my blog">`
 - Định nghĩa bảng mã cho trang web  
 `<meta charset="utf-8">`
+<a name = "3"></a>
 ## Các thẻ phổ biến trong phần `<body>`
+<a name = "3.1"></a>
 ### Định dạng đoạn văn bản
 ![7Kpd4riIaCUoin6L25xIt4WYZ4yEKcXsDUrz1J8a](https://user-images.githubusercontent.com/81867521/201452984-b7d2130d-7e0b-44fb-919b-6d978f447a0c.jpg)
 
@@ -92,6 +99,7 @@ Thẻ được sử dụng là `<ol>...</ol>` đi kèm với thuộc tính `type
 <a href="myblog.html" title="noi-dung" target="_self">My blog</a>
 ```
 Có thể thấy thẻ `<a>` đi kèm với các thuộc tính `href`, `title`, `target`,.. ngoài ra còn nhiều thuộc tính khác. Thuộc tính `href` sẽ tạo liên kết muốn chuyển đến, nếu không muốn trỏ đến liên kết nào cả thì chúng ta sử dụng `href="#"`. Thuộc tính `title` sẽ khai báo tiêu đề cho thẻ a. Thuộc tính target sẽ chỉ định mở liên kết trong một trang mới `(_blank)` hoặc chuyển hướng từ trang hiện tại `(_self)`.
+<a name = "3.2"></a>
 ### Chèn media: hình ảnh, video, nhạc,... trong HTML
 Để trang web thêm hấp dẫn thì HTML cung cấp các thẻ để chèn media vào trang web.
 - Chèn hình ảnh vào trang web:
@@ -119,6 +127,7 @@ Tương tự như chèn video, chèn audio sẽ sử dụng thẻ `<audio>...</a
 <iframe src="https://www.instagram.com/" width="500px" height="600px" scrolling="auto" name="cua-so-1"></iframe>
 ```
 Để chèn một website vào trang web ta sử dụng thẻ `<iframe>...</iframe>` với các thuộc tính `src`, `width`, `height`, `scrolling` - Có thể cuộn nếu trang web kích thước lớn, `name`,...
+<a name = "3.3"></a>
 ### Tạo form nhập liệu trong HTML
 Một trong những tính năng khác được xem là sử dụng nhiều trong HTML đó chính là tạo form nhập liệu cho trang web. Ở đây mình sẽ ví dụ cơ bản một loại cụ thể đó chính là tạo form đăng nhập:
 ```
