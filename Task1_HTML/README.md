@@ -57,7 +57,24 @@ Ví dụ:
   - `<strong>` - Thẻ nhấn mạnh văn bản
   - `<i>` - Thẻ in nghiêng
   - `<u>` - Thẻ gạch chân
-
-
-
+- Để sắp xếp cho văn bản mạch lạc hơn thì HTML cung cấp một số thẻ để tạo danh sách trong văn bản HTML. Để tạo danh sách trong HTML thì chúng ta có 2 loại đó là tạo danh sách có sắp xếp và tạo danh sách không có sắp xếp.Đối với tạo danh sách có sắp xếp sẽ có dạng như sau:
+```
+<ol type="I">	
+	<li>Hallo</li>
+	<li>Brother</li>
+</ol>
+```
+Thẻ được sử dụng là `<ol>...</ol>` đi kèm với thuộc tính `type` để chỉ định ký tự của danh mục, Ở đây mình sử dụng `I` có nghĩa là danh sách sẽ bắt đầu với các ký tự I, II, III, IV,... Tương tự chúng ta có thể thay đổi bằng các ký tự khác như số `1`, chữ cái `a`,...  
+Đối với tạo danh sách không sắp xếp:
+```
+<ul>
+	<li>Mục con 1</li>
+	<ul>
+		<li>hallo</li>
+	</ul>
+	<li>Mục con 2</li>
+	<li>Mục con 3</li>
+</ul>
+```
+Đối với kiểu danh sách này sẽ sử dụng thẻ `<ul>...</ul>` để tạo. Và đặt điểm chung của cả 2 loại đó chính là bên trong phải chứ các phần tử cho danh sách. Cách phần tử được khai báo bởi thẻ `<li>...</li>` hoặc có thể lồng các danh sách vào bên trong danh sách như trên.
 
