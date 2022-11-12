@@ -89,3 +89,23 @@ Có thể thấy thẻ `<a>` đi kèm với các thuộc tính `href`, `title`, 
 <img src="console.png" alt="Hinh anh Console" title="WS" width="500px" height="300px">
 ```
 Để chèn một hình ảnh vào HTML chúng ta sử dụng thẻ `<img>` với các thuộc tính như `src`(quan trọng), `alt`, `title`, `width`, `height`. Thuộc tính `src` sẽ chỉ định nguồn của hình ảnh được load, có thể sử dụng một liên kết bên ngoài internet hoặc cũng có thể sử dụng tài nguyên trên web của mình. Các thuộc tính điều chỉnh kích thường cho hình ảnh về chiều rộng và chiều cao `width` và `height`. Thuộc tính `title` khai báo tiêu đề cho hình ảnh. Thuộc tính `alt` có nhiệm vụ thay thế bằng cụm từ giá trị của thuộc tính này khi hình ảnh gặp sự cố không thể hiển thị.
+- Chèn video vào trang web:
+```
+<video width="320px" height="auto" controls>
+	<source src="hack.mp4" type="video/mp4">
+	Trình duyệt của bạn không hỗ trợ html5
+</video>
+```
+Cấu trúc trên sẽ hướng dẫn ta chèn một video vào trang web bằng html5. Thẻ dùng để chèn video là `<video>...</video>` với các thuộc tính tinh chỉnh kích thước như `width`, `height`, ngoài ra nếu muốn video chứa các nút điều khiển thì chúng ta sử dụng thuộc tính `controls` và còn rất nhiều thuộc tính khác nữa. Bên trong thẻ `<video>` sẽ chứa một thẻ con - thẻ này rất quan trọng trong việc chèn một video - đó chính là thẻ `<source>`. Thẻ này sẽ chỉ định video nào được chèn vào trang web với thuộc tính `src` có thể là video trên máy chúng ta hoặc là video bất kỳ trên youtube (sử dụng nhúng), thuộc tính tiếp theo là `type` để chỉ loại video.
+- Chèn audio vào trang web:
+```
+<audio>
+	<source src="http://www.w3schools.com/tags/horse.mp3" type="audio/mp3">
+</audio>
+```
+Tương tự như chèn video, chèn audio sẽ sử dụng thẻ `<audio>...</audio>` thay vì `<video>`, và mọi thuộc tính đều tương tự như `video`, chúng ta cũng có thể chèn một bản nhạc trên zingmp3 bằng cách chèn mã nhúng.
+- Chèn một website khác vào trang web:
+```
+<iframe src="https://www.instagram.com/" width="500px" height="600px" scrolling="auto" name="cua-so-1"></iframe>
+```
+Để chèn một website vào trang web ta sử dụng thẻ `<iframe>...</iframe>` với các thuộc tính `src`, `width`, `height`, `scrolling` - Có thể cuộn nếu trang web kích thước lớn, `name`,...
