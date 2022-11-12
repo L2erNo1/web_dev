@@ -24,11 +24,11 @@
 - File HTML có dạng filename.html hoặc filename.htm
 
 <a name = "II"></a>
-# Vai trò của HTML trong website.
+# Vai trò của HTML trong website
 HTML là ngôn ngữ đánh dấu siêu văn bản nên nó có vai trò xây dựng cấu trúc văn bản trên một website, bao gồm văn bản, hình ảnh, video, âm nhạc,...
 
 <a name = "III"></a>
-# Các thẻ và thuộc tính phổ biến trong HTML.
+# Các thẻ và thuộc tính phổ biến trong HTML
 <a name = "1"></a>
 ## Cấu trúc chung
 Để khai báo loại tài liệu HTML chúng ta cần khai báo `<!DOCTYPE html>` - HTML5  
@@ -61,7 +61,7 @@ Ví dụ:
 `<meta charset="utf-8">`
 <a name = "3"></a>
 ## Các thẻ phổ biến trong phần `<body>`
-<a name = "3.1"></a>
+<a name = "3.1."></a>
 ### Định dạng đoạn văn bản
 ![7Kpd4riIaCUoin6L25xIt4WYZ4yEKcXsDUrz1J8a](https://user-images.githubusercontent.com/81867521/201452984-b7d2130d-7e0b-44fb-919b-6d978f447a0c.jpg)
 
@@ -99,7 +99,7 @@ Thẻ được sử dụng là `<ol>...</ol>` đi kèm với thuộc tính `type
 <a href="myblog.html" title="noi-dung" target="_self">My blog</a>
 ```
 Có thể thấy thẻ `<a>` đi kèm với các thuộc tính `href`, `title`, `target`,.. ngoài ra còn nhiều thuộc tính khác. Thuộc tính `href` sẽ tạo liên kết muốn chuyển đến, nếu không muốn trỏ đến liên kết nào cả thì chúng ta sử dụng `href="#"`. Thuộc tính `title` sẽ khai báo tiêu đề cho thẻ a. Thuộc tính target sẽ chỉ định mở liên kết trong một trang mới `(_blank)` hoặc chuyển hướng từ trang hiện tại `(_self)`.
-<a name = "3.2"></a>
+<a name = "3.2."></a>
 ### Chèn media: hình ảnh, video, nhạc,... trong HTML
 Để trang web thêm hấp dẫn thì HTML cung cấp các thẻ để chèn media vào trang web.
 - Chèn hình ảnh vào trang web:
@@ -127,7 +127,7 @@ Tương tự như chèn video, chèn audio sẽ sử dụng thẻ `<audio>...</a
 <iframe src="https://www.instagram.com/" width="500px" height="600px" scrolling="auto" name="cua-so-1"></iframe>
 ```
 Để chèn một website vào trang web ta sử dụng thẻ `<iframe>...</iframe>` với các thuộc tính `src`, `width`, `height`, `scrolling` - Có thể cuộn nếu trang web kích thước lớn, `name`,...
-<a name = "3.3"></a>
+<a name = "3.3."></a>
 ### Tạo form nhập liệu trong HTML
 Một trong những tính năng khác được xem là sử dụng nhiều trong HTML đó chính là tạo form nhập liệu cho trang web. Ở đây mình sẽ ví dụ cơ bản một loại cụ thể đó chính là tạo form đăng nhập:
 ```
