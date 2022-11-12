@@ -39,11 +39,11 @@ Chúng ta sẽ tham khảo một chương trình HTML bao gồm những thành p
 Tiếp theo là thẻ `<meta>` đi kèm với các thuộc tính dùng để định nghĩa các thông tin cơ bản như mô tả trang web, từ khóa, tác giả, chỉnh sửa cuối cùng và các metadata khác.  
 Ví dụ: 
 - Định nghĩa tác giả của trang web  
-<meta name="author" content="DucNinh">
+`<meta name="author" content="DucNinh">`
 - Định nghĩa mô tả cho trang web  
-<meta name="description" content="This is my blog">
+`<meta name="description" content="This is my blog">`
 - Định nghĩa bảng mã cho trang web  
-<meta charset="utf-8">
+`<meta charset="utf-8">`
 
 
 
