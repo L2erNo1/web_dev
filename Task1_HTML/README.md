@@ -33,7 +33,7 @@ Chúng ta sẽ tham khảo một chương trình HTML bao gồm những thành p
 </body>
 </html>
 ```
-Đầu tiên chúng ta có thể thấy bắt đầu với chương trình sẽ là dòng khai báo file HTML (ngoài ra còn cho biết bạn đang dùng phiên bản html bao nhiêu). Tiếp theo là thẻ mở `<html>` và kết thúc bằng thẻ đóng `<html>` có ý nghĩa bao hàm cả nội dung file html - cấu trúc file html. Bên trong thẻ `<html>` được chia ra làm 2 phần đó là head và body. Ở phần head sẽ bắt đầu với thẻ mở `<head>` và thẻ đóng `</head>`, ở phần này nó chứa những thẻ khai báo thông tin cho trang như tiêu đề, mô tả, bảng mã ký tự. Và phần `head` không hiển thị nội dung bên trong nó lên trang web. Tiếp theo là thẻ `body` cũng tương tự như thế thẻ body cũng bắt đầu với một thẻ mở `<body>` và kết thúc bằng thẻ đóng `</body>`. Ở phần này sẽ chứa toàn bộ nội dung sẽ hiển thị lên website.
+Đầu tiên chúng ta có thể thấy bắt đầu với chương trình sẽ là dòng khai báo file HTML (ngoài ra còn cho biết bạn đang dùng phiên bản html bao nhiêu). Tiếp theo là thẻ mở `<html>` và kết thúc bằng thẻ đóng `<html>` có ý nghĩa bao hàm cả nội dung file html - cấu trúc file html. Bên trong thẻ `<html>` được chia ra làm 2 phần đó là head và body. Ở phần head sẽ bắt đầu với thẻ mở `<head>` và thẻ đóng `</head>`, ở phần này chứa những thẻ khai báo thông tin cho trang như tiêu đề, mô tả, bảng mã ký tự. Và phần `head` không hiển thị nội dung bên trong nó lên trang web. Tiếp theo là thẻ `body` cũng tương tự như thế thẻ body cũng bắt đầu với một thẻ mở `<body>` và kết thúc bằng thẻ đóng `</body>`. Ở phần này sẽ chứa toàn bộ nội dung sẽ hiển thị lên website.
 ## Các thẻ phổ biến trong phần `<head>`
 Đầu tiên phải kể đến đó là thẻ `<title>My blog</title>` sẽ khai báo tiêu đề/ nhan đề bài viết.<br>
 Tiếp theo là thẻ `<meta>` đi kèm với các thuộc tính dùng để định nghĩa các thông tin cơ bản như mô tả trang web, từ khóa, tác giả, chỉnh sửa cuối cùng và các metadata khác.  
@@ -44,7 +44,10 @@ Ví dụ:
 `<meta name="description" content="This is my blog">`
 - Định nghĩa bảng mã cho trang web  
 `<meta charset="utf-8">`
-
+## Các thẻ phổ biến trong phần `<body>`
+### Định dạng đoạn văn bản
+- Đầu tiên sẽ là các thẻ `heading` của văn bản từ `<h1>-<h6>`. Ở thẻ này giúp chúng ta tạo tiêu đề, đề mục tài liệu trong cấu trúc trang web HTML. Trong một trang HTML có thể phân chia ra thành nhiều đề mục với các cấp độ khác nhau từ 1 đến 6. Cấp độ cao nhất là `<h1>` và thấp nhất là `<h6>`.  
+- 
 
 
 
