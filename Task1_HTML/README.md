@@ -109,3 +109,18 @@ Tương tự như chèn video, chèn audio sẽ sử dụng thẻ `<audio>...</a
 <iframe src="https://www.instagram.com/" width="500px" height="600px" scrolling="auto" name="cua-so-1"></iframe>
 ```
 Để chèn một website vào trang web ta sử dụng thẻ `<iframe>...</iframe>` với các thuộc tính `src`, `width`, `height`, `scrolling` - Có thể cuộn nếu trang web kích thước lớn, `name`,...
+### Tạo form nhập liệu trong HTML
+Một trong những tính năng khác được xem là sử dụng nhiều trong HTML đó chính là tạo form nhập liệu cho trang web. Ở đây mình sẽ ví dụ cơ bản một loại cụ thể đó chính là tạo form đăng nhập:
+```
+<form action="trangchu.html" method="post" name="login">
+	Username: <input type="text" name="username"> <br>
+	Password: <input type="password" name="password"><br>
+	<input type="submit" value="Login" name="submit">
+</form>
+```
+Để bắt đầu tạo một form đăng nhập, chúng ta sử dụng thẻ `<form>...</form>` với các thuộc tính:
+  - `action`: Thực hiện một action nào đó khi nhấn Submit (có thể là một JS), ở đây mình sẽ cho nó đơn giản là chuyển hướng sang một site khác.
+  - `method`: chỉ phương thức được sử dụng, có rất nhiều phương thức khác nhau như POST, GET, TRACE,... mỗi phương thức sẽ có cách truy vấn khác nhau.
+  - `name`: khái bảo tên cho form, sử dụng khi thao tác với các ngôn ngữ khác.
+
+Tiếp theo bên trong thẻ `<form>` sẽ chứa các phần tử của thẻ `form` này. Mỗi phần sẽ được khai báo với thẻ `<input>` với các thuộc tính `type`, `name`, `value`,... Với `type` tùy thuộc vào nhu cầu sử dụng của người dùng, như ví dụ trên để nhập vào username thì sử dụng `text`, password sử dụng `password` và nút Submit sử dụng `submit` với giá trị bên trong nút là `Login`.
