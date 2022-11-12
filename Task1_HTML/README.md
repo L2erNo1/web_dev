@@ -77,4 +77,8 @@ Thẻ được sử dụng là `<ol>...</ol>` đi kèm với thuộc tính `type
 </ul>
 ```
 Đối với kiểu danh sách này sẽ sử dụng thẻ `<ul>...</ul>` để tạo. Và đặt điểm chung của cả 2 loại đó chính là bên trong phải chứ các phần tử cho danh sách. Cách phần tử được khai báo bởi thẻ `<li>...</li>` hoặc có thể lồng các danh sách vào bên trong danh sách như trên.
-
+- Tạo một liên kết điều hướng trong HTML chúng ta sử dụng thẻ `<a>`, đây cũng được xem là thẻ được sử dụng phổ biến nhất khi tạo một website. Cấu trúc của thẻ `<a>` như sau:
+```
+<a href="myblog.html" title="noi-dung" target="_self">My blog</a>
+```
+Có thể thấy thẻ `<a>` đi kèm với các thuộc tính `href`, `title`, `target`,.. ngoài ra còn nhiều thuộc tính khác. Thuộc tính `href` sẽ tạo liên kết muốn chuyển đến, nếu không muốn trỏ đến liên kết nào cả thì chúng ta sử dụng `href="#"`. Thuộc tính `title` sẽ khai báo tiêu đề cho thẻ a. Thuộc tính target sẽ chỉ định mở liên kết trong một trang mới `(_blank)` hoặc chuyển hướng từ trang hiện tại `(_self)`.
