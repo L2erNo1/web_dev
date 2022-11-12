@@ -46,6 +46,7 @@ Ví dụ:
 `<meta charset="utf-8">`
 ## Các thẻ phổ biến trong phần `<body>`
 ### Định dạng đoạn văn bản
+![markdown](https://suntech.edu.vn/storage/wink/images/7Kpd4riIaCUoin6L25xIt4WYZ4yEKcXsDUrz1J8a.jpg)
 - Đầu tiên sẽ là các thẻ `heading` của văn bản từ `<h1>-<h6>`. Ở thẻ này giúp chúng ta tạo tiêu đề, đề mục tài liệu trong cấu trúc trang web HTML. Trong một trang HTML có thể phân chia ra thành nhiều đề mục với các cấp độ khác nhau từ 1 đến 6. Cấp độ cao nhất là `<h1>` và thấp nhất là `<h6>`.  
 - 
 
