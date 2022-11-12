@@ -6,11 +6,15 @@
 > Người thực hiện: Lê Đức Ninh  
 > Mentor: Nguyễn Quang Đức  
 # Nội dung: 
-[I. HTML là gì?](#I)
-[II. Vai trò của HTML](#II)
-[III. Các thẻ và thuộc tính phổ biến trong HTML](#IIII)
-- Nội dung:
-  - 1.
+[I. HTML là gì?](#I)  
+[II. Vai trò của HTML](#II)  
+[III. Các thẻ và thuộc tính phổ biến trong HTML](#IIII)  
+  [1. Cấu trúc chung](#1)
+  [2. Các thẻ trong `<head>`](#2)
+  [3. Các thẻ trong `<body>`](#3)
+    [3.1. Định dạng đoạn văn bản](#3.1.)
+    [3.2. Chèn media](#3.2.)
+    [3.3. Tạo form nhập liệu](#3.3.)
 <a name = "I"></a>
 # HTML là gì?
 - HTML (Hyper Text Markup Language) là ngôn ngữ đánh dấu siêu văn bản dùng để tạo giao diện web, mỗi trang web là một file html hoặc có thể là một tập tin HTML.  
