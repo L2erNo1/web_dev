@@ -9,7 +9,7 @@ HTML5 có thể hiểu đơn là nó là một phiên bản mới (thứ 5) củ
 Ở đây mình sẽ đề cập với những đặc điểm khác nhau giữa HTML & HTML5, và tập trung vào những cái mới được nhà phát triển thêm vào để tối ưu hóa khi sử dụng.  
 
 Mình sẽ giới thiệu qua một số điểm khác nhau giữa HTML & HTML5 và kèm theo ví dụ:  
-- Việc tích hợp các chức năng <audio>, <video>,.. (media)  
+- Việc tích hợp các chức năng `<audio>`, `<video>`,.. (media)  
   Đối với các phiên bản HTML trước đây để thêm các media vào thì cần phải có phần mềm hỗ trợ flash player. Đến tận bây giờ mình còn bắt gặp một số website vẫn giữ cái này nhưng đều không xem được vì đã bị ngưng hỗ trợ.  
 Ví dụ:  
   Để chèn một video trong trình duyệt chúng ta có thể sử dụng thẻ `<video>...</video>` kết hợp với các thuộc tính src, controls, autoplay, các thuộc tính thay đổi kích thước như là height, width,..
