@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>index</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<header>
+		<a id="header" href="index.html">Welcome My Blog</a>
+		<!--<p>Welcome My Blog</p>-->
+	</header>
+	<button type="button" name="submit" id="logout"><a href="login.html">Đăng xuất</a></button>
+	<div id="content_html">
+		<p>
+			<ol>
+				<h3 class="ontitle">Tóm tắt nội dung về HTML & HTML5</h3>
+				<li class="title">
+					HTML là gì?
+				</li>
+					<p>
+						<ul>
+							<li>
+								<p>
+									HTML (Hyper Text Markup Language) là ngôn ngữ đánh dấu siêu văn bản dùng để tạo giao diện web, mỗi trang web là một file html hoặc có thể là một tập tin HTML. <br>
+								</p>
+							</li>
+							<li>
+								<p>
+									File HTML được cấu tạo bởi các tag (thẻ), các thẻ có cấu tạo <code>&lt;tagname&gt;</code> và thường sẽ đi theo cặp bao gồm thẻ mở và thẻ đóng, ví dụ <code>&lt;p&gt;...&lt;/p&gt;</code>. Đôi khi một số tag đặc biệt sẽ không có thẻ đóng ví dụ như <code>&lt;br&gt;</code> <br>
+								</p>
+							</li>
+							<li>
+								<p>
+									File HTML có dạng <code>filename.html</code> hoặc  <code>filename.htm</code>
+								</p>
+							</li>
+						</ul>
+					</p>
+				<li class="title">
+					Vai trò của HTML trong website
+				</li>
+					<p>
+						HTML là ngôn ngữ đánh dấu siêu văn bản nên nó có vai trò xây dựng cấu trúc văn bản trên một website, bao gồm văn bản, hình ảnh, video, âm nhạc,...
+					</p>
+				<li class="title">
+					Các thẻ và thuộc tính phổ biến trong HTML - HTML5
+				</li>
+					<p>
+						<ol type="a">
+							<li>Cấu trúc chung</li>
+								<p>
+									Để khai báo loại tài liệu HTML chúng ta cần khai báo <code>&lt;!DOCTYPE html&gt;</code>  - HTML5 <br>Chúng ta sẽ tham khảo một chương trình HTML bao gồm những thành phần nào.
+								</p>
+								<img src="Photos/1.jpg" alt="cau-truc-HTML" width="550px">
+								<p>
+									Đầu tiên chúng ta có thể thấy bắt đầu với chương trình sẽ là dòng khai báo file HTML (ngoài ra còn cho biết bạn đang dùng phiên bản html bao nhiêu). Tiếp theo là thẻ mở so <code>&lt;html&gt;</code> và kết thúc bằng thẻ đóng <code>&lt;/html&gt;</code> có ý nghĩa bao hàm cả nội dung file html - cấu trúc file html. Bên trong thẻ <code>&lt;html&gt;</code> được chia ra làm 2 phần đó là head và body. Ở phần head sẽ bắt đầu với thẻ mở <code>&lt;head&gt;</code> và thẻ đóng <code>&lt;/head&gt;</code>, ở phần này chứa những thẻ khai báo thông tin cho trang như tiêu đề, mô tả, bảng mã ký tự. Và phần head không hiển thị nội dung bên trong nó lên trang web. Tiếp theo là thẻ body cũng tương tự như thế thẻ body cũng bắt đầu với một thẻ mở <code>&lt;body&gt;</code> và kết thúc bằng thẻ đóng <code>&lt;/body&gt;</code>. Ở phần này sẽ chứa toàn bộ nội dung sẽ hiển thị lên website.
+								</p>
+							<li>
+								Các thẻ phổ biến trong phần &lt;head&gt;
+							</li>
+								<p>
+									Đầu tiên phải kể đến đó là thẻ <code>&lt;title&gt;My blog&lt;/title&gt;</code> sẽ khai báo tiêu đề/ nhan đề bài viết.Tiếp theo là thẻ <code>&lt;meta&gt;</code> đi kèm với các thuộc tính dùng để định nghĩa các thông tin cơ bản như mô tả trang web, từ khóa, tác giả, chỉnh sửa cuối cùng và các metadata khác. <br> Ví dụ: <br> Định nghĩa tác giả của trang web <code>&lt;meta name="author" content="DucNinh"&gt;</code><br>Định nghĩa mô tả cho trang web <code>&lt;meta name="description" content="This is my blog"&gt;</code> <br>Định nghĩa bảng mã cho trang web <code>&lt;meta charset="utf-8"&gt;</code>
+								</p>
+							<li>
+								Các thẻ phổ biến trong phần &lt;body&gt;
+							</li>
+								<ul>
+									<li>
+										Định dạng đoạn văn bản
+									</li>
+										<img src="https://user-images.githubusercontent.com/81867521/201452984-b7d2130d-7e0b-44fb-919b-6d978f447a0c.jpg">
+										<p>
+									
+											Một số thẻ thường xuyên được sử dụng như là: <br> &lt;br&gt; - Thẻ ngắt dòng văn bản <br>&lt;hr&gt; - Thẻ chèn đường nằm ngang <br>&lt;b&gt; - Thẻ bôi đậm chữ <br>&lt;strong&gt; - Thẻ nhấn mạnh văn bản <br>&lt;i&gt; - Thẻ in nghiêng <br>&lt;u&gt; - Thẻ gạch chân <br>
+											&lt;p&gt; - Thẻ tạo đoạn văn bản <br> &lt;h1&gt;-&lt;h6&gt; - Thẻ tạo heading 
+										</p>
+									<li>
+										Chèn media - HTML5
+									</li>
+										<p>
+											Để trang web thêm hấp dẫn thì HTML cung cấp các thẻ để chèn media vào trang web.
+										</p>
+										<h4>Chèn hình ảnh vào trang web</h4>
+										<p>
+											<code>&lt;img src="console.png" alt="Hinh anh Console" title="WS" width="500px" height="300px"&gt;</code> <br>
+											Để chèn một hình ảnh vào HTML chúng ta sử dụng thẻ &lt;img&gt; với các thuộc tính như src(quan trọng), alt, title, width, height. Thuộc tính src sẽ chỉ định nguồn của hình ảnh được load, có thể sử dụng một liên kết bên ngoài internet hoặc cũng có thể sử dụng tài nguyên trên web của mình. Các thuộc tính điều chỉnh kích thường cho hình ảnh về chiều rộng và chiều cao width và height. Thuộc tính title khai báo tiêu đề cho hình ảnh. Thuộc tính alt có nhiệm vụ thay thế bằng cụm từ giá trị của thuộc tính này khi hình ảnh gặp sự cố không thể hiển thị.
+										</p>
+										<h4>
+											Chèn video vào trang web
+										</h4>
+										<p>
+											<code>
+											&lt;video id="video" width="400px" height="auto" controls&gt;
+													&lt;source src="hack.mp4" type="video/mp4"&gt;
+													Trình duyệt của bạn không hỗ trợ html5
+												&lt;/video&gt;
+											</code> <br>
+											Cấu trúc trên sẽ hướng dẫn ta chèn một video vào trang web bằng html5. Thẻ dùng để chèn video là &lt;video&gt;...&lt;/video&gt; với các thuộc tính tinh chỉnh kích thước như width, height, ngoài ra nếu muốn video chứa các nút điều khiển thì chúng ta sử dụng thuộc tính controls và còn rất nhiều thuộc tính khác nữa. Bên trong thẻ &lt;video&gt; sẽ chứa một thẻ con - thẻ này rất quan trọng trong việc chèn một video - đó chính là thẻ &lt;source&gt;. Thẻ này sẽ chỉ định video nào được chèn vào trang web với thuộc tính src có thể là video trên máy chúng ta hoặc là video bất kỳ trên youtube (sử dụng nhúng), thuộc tính tiếp theo là type để chỉ loại video.						
+										</p>
+										<h4>
+											Chèn audio vào trang web
+										</h4>
+										<p>
+											<code>&lt;audio&gt;&lt;source src="http://www.w3schools.com/tags/horse.mp3" type="audio/mp3"&gt;&lt;/audio&gt</code> <br>
+											Tương tự như chèn video, chèn audio sẽ sử dụng thẻ &lt;audio&gt;...&lt;/audio&gt; thay vì &lt;video&gt;, và mọi thuộc tính đều tương tự như video, chúng ta cũng có thể chèn một bản nhạc trên zingmp3 bằng cách chèn mã nhúng.
+										</p>
+										<li>
+											Chèn một website khác vào trang web
+										</li>
+										<p>
+											<code>&lt;iframe src="https://www.instagram.com/" width="500px" height="600px" scrolling="auto" name="cua-so-1"&gt;&lt;/iframe&lt;</code> <br>
+											Để chèn một website vào trang web ta sử dụng thẻ &lt;iframe&gt;...&lt;/iframe&gt; với các thuộc tính src, width, height, scrolling - Có thể cuộn nếu trang web kích thước lớn, name,...
+										</p>
+									<li>
+										Các thẻ hỗ trợ đồ họa - HTML5 (canvas, avg)
+									</li>
+									<p>
+										Việc HTML5 cho phép sử dụng canvas nhằm mục đích tạo các đối tượng đồ họa, và để nó hoạt động thì phải đi kèm với javascript. Canvas dựa trên mô hình 2d tọa độ Oxy, có thể tạo tùy ý ví dụ như vẽ hình, vẽ chữ, các ký tự,...nhưng lưu ý luôn luôn đi kèm js. <br>
+										Ví dụ: Vẽ hình chữ nhật bằng canvas: <br>
+										<p> <code>
+											&lt;canvas id="hinhchunhat" width="300" height="200" style="background: whitesmoke;"&gt;&lt;/canvas&gt; <br>
+											&lt;script&gt;
+											  var c=document.getElementById("hinhchunhat");<br>
+											  //Lấy context <br>
+											  var ctx=c.getContext("2d"); <br>
+											  ctx.fillRect(20,20,100,50); <br>
+											&lt;/script&gt;	<br>
+										</code>
+										</p>
+										<p>
+											Đầu tiên sẽ get context sau đó sẽ xác định tọa độ và chiều rộng chiều cao của hình. Ví dụ như trên (x, y, w, h) tọa độ điểm bắt đầu vẽ sẽ là (20, 20) và chiều rộng và chiều cao của hình chữ nhật tương ứng với (100, 50). Để hỗ trợ đồ họa thì HTML5 còn cung cấp thêm một thẻ nữa đó là &lt;svg&gt;. Đối với thẻ svg chúng ta có thể chèn ảnh, vẽ ảnh,.. mà không nhất thiết phải đi cùng với javascript như thẻ &lt;canva&gt; <br> Ví dụ: <br>
+											<code>
+												&lt;svg width="340" height="120"&gt;&lt;rect width="300" height="100"  x="20" y="20" fill="green" /&gt;&lt;/svg&gt;
+											</code> <br>
+											Ở ví dụ trên chúng ta có thể vẽ hình chữ nhật bằng thẻ &lt;ect/&gt;, tương tự như thế để vẽ hình tròn sử dụng &gt;circle&gt;, đường thẳng dùng &lt;line/&gt;,...
+										</p>
+
+
+										
+									</p>
+								</ul>
+										
+						</ol>
+				
+					</p>
+				<li class="title">
+					Kết luận
+				</li>
+				<p>
+					Vậy làm thế nào để HTML5 có thể thay thế HTML, những ưu điểm sau đây sẽ chứng mình được điều đó:
+					<ul>
+						<li>
+							Bổ sung các tính năng tuyệt vời (một trong số đó được trình bày ở trên)
+						</li>
+						<li>
+							HTML5 giúp đồng bộ hóa giữa các trình duyệt (đa số các trình duyệt đều hỗ trợ)
+						</li>
+						<li>
+							Giúp cho việc khai báo các thẻ trở nên đơn giản hơn
+						</li>
+						<li>
+							Làm cho website có hiệu suất tốt hơn
+						</li>
+					</ul>
+				</p>
+			</ol>
+		<p>
+		<div>
+			<h3>
+				Tài liệu tham khảo
+			</h3>
+			<ul>
+				<li>
+					<a class="refer" href="https://www.w3schools.com/">https://www.w3schools.com/</a>
+				</li>
+				<li>
+					<a class="refer" href="http://thachpham.com/">http://thachpham.com/</a>
+				</li>
+				<li>
+					<a class="refer" href="https://www.youtube.com/@phanota">https://www.youtube.com/@phanota</a>
+				</li>
+			</ul>
+			<p style="text-align: center;">==Cảm ơn==</p>
+		</div>
+	</div>
+	
+	<footer>
+		<p>&copy; Ducninh.KMA <a href="https://github.com/L2erNo1/" target="_blank">My Github</a>
+		</p>
+	</footer>
+</body>
+</html>

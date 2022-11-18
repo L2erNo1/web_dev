@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login</title>
+	<link rel="stylesheet" href="login.css">
+	<script type="text/javascript" src="login.js"></script>
+</head>
+<body>
+	<h1 id="header">
+		Welcome My Blog 
+	</h1>
+	<div class="login">
+		<h2>Admin Login</h2>
+		<form >
+			<div class="user">
+				<input type="text" name="username" id="username" required="">
+				<label>Username</label>
+			</div>
+			<div class="user">
+				<input type="password" name="password" id="password" required="">
+				<label>Password</label>
+			</div>
+			<div>
+				<p id="notice"></p>
+			</div>
+			<p id="invalid"></p>
+			<div>
+				<input type="button" name="submit" value="SUBMIT" id="submit" onclick="validate()">
+			</div>
+			
+		</form>
+		
+	</div>
+	<script type="text/javascript">
+		function validate() {
+			let username = document.getElementById("username").value;
+			let password = document.getElementById("password").value;
+
+			if (username == "hihi" && password == "haha") {
+				alert("Chúc mừng bạn đã đăng nhập thành công!!!");
+				let path = "index.html"
+				window.location.replace(path);
+				
+			}
+			else{
+				document.getElementById("invalid").innerHTML = "Invalid username or password!!!";
+			}
+
+		}
+	</script>
+</body>
+</html>
